@@ -6,7 +6,7 @@ version = "0.1.1"
 edition = "2024"
 publish = true
 license = "CC0"
-readme = "Readme.md"
+readme = "../Readme.md"
 repository = "https://github.com/NekoTheCatgirl/bfrunner"
 keywords = ["brainfuck", "interpreter", "fun", "esoteric", "learning"]
 
@@ -19,5 +19,5 @@ ffi = []
 compile_time_macro = ["bfrunner_macro"]
 
 [dependencies]
-bfrunner_macro = { version = "0.1.0", optional = true }
+bfrunner_macro = { path = "../bfrunner-macro", optional = true }
 thiserror = "2.0.18"

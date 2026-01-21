@@ -15,13 +15,25 @@ dependencies = [
 name = "bfrunner"
 version = "0.1.1"
 dependencies = [
- "bfrunner_macro",
+ "bfrunner_macro 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
 ]
 
 [[package]]
 name = "bfrunner_macro"
 version = "0.1.0"
+dependencies = [
+ "bfrunner 0.1.0",
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "bfrunner_macro"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bfa6a5ec9a82a0e189dd3ef903d1c81c573a768e646f0db696ee61ab2bdf7c6f"
 dependencies = [
  "bfrunner 0.1.0",
  "proc-macro2",

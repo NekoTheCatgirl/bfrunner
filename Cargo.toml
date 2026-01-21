@@ -1,18 +1,6 @@
-[package]
-name = "bfrunner"
-description = "A Brainfuck interpreter in Rust, for shits and giggles. Not for production."
-authors = ["NekoTheCatgirl <thea@nekothecatgirl.com>"]
-version = "0.1.0"
-edition = "2024"
-publish = true
-license-file = "LICENSE"
-readme = "Readme.md"
-repository = "https://github.com/NekoTheCatgirl/bfrunner"
-keywords = ["brainfuck", "interpreter", "fun", "esoteric", "learning"]
-
-[lib]
-name = "bfrunner"
-crate-type = ["lib", "cdylib"]
+[workspace]
+resolver = "3"
+members = ["bfrunner-macro", "bfrunner"]
 
 [profile.release]
 opt-level = "z"
@@ -20,9 +8,3 @@ lto = true
 codegen-units = 1
 panic = "abort"
 strip = "symbols"
-
-[features]
-ffi = []
-
-[dependencies]
-thiserror = "2.0.18"

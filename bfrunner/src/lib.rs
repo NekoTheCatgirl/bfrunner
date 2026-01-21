@@ -5,6 +5,9 @@ use thiserror::Error;
 #[cfg(feature = "ffi")]
 mod ffi;
 
+#[cfg(feature = "compile_time_macro")]
+pub use bfrunner_macro::bf;
+
 const TAPE_SIZE: usize = 30000;
 
 #[derive(Debug, Clone)]

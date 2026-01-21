@@ -5,28 +5,8 @@ version = 4
 [[package]]
 name = "bfrunner"
 version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d615196045974e3a1456b27ddc3ef0c7c7aadffd9f6467f2cedf6ae603078db2"
 dependencies = [
  "thiserror",
-]
-
-[[package]]
-name = "bfrunner"
-version = "0.1.1"
-dependencies = [
- "bfrunner_macro",
- "thiserror",
-]
-
-[[package]]
-name = "bfrunner_macro"
-version = "0.1.0"
-dependencies = [
- "bfrunner 0.1.0",
- "proc-macro2",
- "quote",
- "syn",
 ]
 
 [[package]]

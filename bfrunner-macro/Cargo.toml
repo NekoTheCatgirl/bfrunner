@@ -8,14 +8,7 @@ publish = true
 license = "CC0-1.0"
 readme = "../Readme.md"
 repository = "https://github.com/NekoTheCatgirl/bfrunner"
-keywords = [
-    "brainfuck",
-    "interpreter",
-    "fun",
-    "esoteric",
-    "learning",
-    "proc-macro",
-]
+keywords = ["brainfuck", "interpreter", "fun", "esoteric", "learning"]
 
 [lib]
 proc-macro = true

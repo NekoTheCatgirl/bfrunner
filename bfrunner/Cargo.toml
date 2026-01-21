@@ -19,5 +19,5 @@ ffi = []
 compile_time_macro = ["bfrunner_macro"]
 
 [dependencies]
-bfrunner_macro = { path = "../bfrunner-macro", optional = true }
+bfrunner_macro = { version = "0.1.0", optional = true }
 thiserror = "2.0.18"

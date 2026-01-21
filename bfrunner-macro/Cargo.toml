@@ -1,8 +1,21 @@
 [package]
 name = "bfrunner_macro"
+description = "Compile time macro for you to enjoy brainfuck in rust."
+authors = ["NekoTheCatgirl <thea@nekothecatgirl.com>"]
 version = "0.1.0"
 edition = "2024"
-publish = false
+publish = true
+license = "CC0"
+readme = "Readme.md"
+repository = "https://github.com/NekoTheCatgirl/bfrunner"
+keywords = [
+    "brainfuck",
+    "interpreter",
+    "fun",
+    "esoteric",
+    "learning",
+    "proc-macro",
+]
 
 [lib]
 proc-macro = true
@@ -11,4 +24,4 @@ proc-macro = true
 proc-macro2 = "1.0"
 syn = "2.0"
 quote = "1.0"
-bfrunner = "0.1"
+bfrunner = "0.1.*"

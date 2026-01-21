@@ -9,7 +9,6 @@ license-file = "LICENSE"
 readme = "Readme.md"
 repository = "https://github.com/NekoTheCatgirl/bfrunner"
 keywords = ["brainfuck", "interpreter", "fun", "esoteric", "learning"]
-categories = ["programming-languages", "development-tools"]
 
 [lib]
 name = "bfrunner"

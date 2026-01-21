@@ -2,11 +2,11 @@
 name = "bfrunner_macro"
 description = "Compile time macro for you to enjoy brainfuck in rust."
 authors = ["NekoTheCatgirl <thea@nekothecatgirl.com>"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 publish = true
 license = "CC0-1.0"
-readme = "../Readme.md"
+readme = "Readme.md"
 repository = "https://github.com/NekoTheCatgirl/bfrunner"
 keywords = ["brainfuck", "interpreter", "fun", "esoteric", "learning"]
 
